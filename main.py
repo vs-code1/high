@@ -26,7 +26,7 @@ def get_urls(url):
     return data_list
 
 
-url = 'https://www.highonstudy.com/wp-json/wp/v2/posts?author=43&per_page=10'
+url = ''
 result = get_urls(url)
 
 print(result[0][0])
